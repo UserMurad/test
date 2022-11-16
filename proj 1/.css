@@ -5,13 +5,45 @@
 }
 .div{
     width: 100%;
+}
+.div_img{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.div ul li{
+.div_img ul{
+    width: 80%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;   
+    font-size: 20px;
+}
+.div_img ul li{
+    width: 10%;
+    text-align: center;
+}
+.div_img ul li:hover{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+.p{
+    margin: 0 auto;
+    
+}
+.div_li{
     width: 100%;
     display: flex;
-    list-style: none;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+.div_p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
 }
